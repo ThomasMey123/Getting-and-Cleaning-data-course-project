@@ -35,20 +35,18 @@ The script could download the data file "https://d396qusza40orc.cloudfront.net/g
 but since this is time consuming it assumes the file was already loaded to the working directory
 
 
-1) The file is unzipped and then the following files are read
-
-* the features.txt and the activity_labels.txt  file which contain information about the feature and activity codes
-* the x... files containing the actual preprocessed experiment data
-* the y... files containing the activity codes
-* the s... files containing the subject codes
-
-2) The test and train data is joined
-3) User friendy names for the observations and other data which have been read are set 
-4) The columns containing a mean or std deviation are selected
-5) The activity codes are replaced by descriptive names
-6) experiments, subjects and observations are joined to one big table
-7) data is grouped by activity and subject
-8) results are written to a file
+1. The file is unzipped and then the following files are read
+  + the features.txt and the activity_labels.txt  file which contain information about the feature and activity codes
+  + the x... files containing the actual preprocessed experiment data
+  + the y... files containing the activity codes
+  + the s... files containing the subject codes
+2. The test and train data is joined
+3. User friendy names for the observations and other data which have been read are set 
+4. The columns containing a mean or std deviation are selected
+5. The activity codes are replaced by descriptive names
+6. experiments, subjects and observations are joined to one big table
+7. data is grouped by activity and subject
+8. results are written to a file
 
 
 
